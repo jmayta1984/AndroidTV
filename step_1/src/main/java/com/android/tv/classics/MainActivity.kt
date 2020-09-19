@@ -29,6 +29,7 @@ import androidx.work.PeriodicWorkRequestBuilder
 import androidx.work.WorkManager
 import com.android.tv.classics.models.TvMediaDatabase
 import com.android.tv.classics.workers.TvMediaSynchronizer
+import com.google.android.exoplayer2.core.BuildConfig
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
